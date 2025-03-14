@@ -1,0 +1,91 @@
+header {
+    padding: 10px 30px;
+    background-color: var(--principal);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav img {
+    width: 150px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: var(--enfase);
+    padding: 8px 16px;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(213, 175, 92, .1)
+}
+
+.fale_conosco {
+    background-color: var(--enfase);
+    color: var(--principal);
+    font-weight: 600 ;
+}
+
+header nav ul li .fale_conosco:hover {
+    background-color: var(--enfase);
+    color: var(--principal);
+    font-weight: 600
+}
+
+/* .menu-toggle {
+    position: fixed;
+    top: 7px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 6px 0;
+    background-color: #333;
+    transition: 0.4s;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -466px;
+    height: 100%;
+    width: 466px;
+    transition: right 0.4s ease;
+    z-index: 1000;
+    padding-top: 60px;
+    display: grid;
+    justify-content: center;
+    align-items: end;
+}
+
+.sidebar .paginas {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .paginas li {
+    padding: 10px 20px;
+    text-align: end;
+}
+
+.sidebar .paginas li a {
+    color: #301;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    font-size: 1.5rem;
+} */

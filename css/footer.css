@@ -1,0 +1,9 @@
+footer {
+    margin-top: 60px;
+    background-color: var(--enfase);
+    padding: 60px 0;
+}
+
+footer li a {
+    color: var(--principal);
+}

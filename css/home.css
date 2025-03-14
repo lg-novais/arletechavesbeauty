@@ -1,0 +1,148 @@
+main figure{
+    background-color: black;
+}
+main figure img{
+    background: rgba(0, 0, 0, .3);
+    opacity: .5;
+}
+
+main div div {
+    align-items: center;
+    padding: 40px 0;
+}
+
+main{
+    background-image: url('../imgs/Arlete08.jpg');
+    background-position: top;
+    padding-top: 2000px;
+}
+
+main div div .introducao h1{
+    text-align: left;
+}
+
+main div div .introducao .call-to-action{
+    background-color: var(--principal);
+    color: var(--enfase);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s;
+}
+
+main div div .introducao .call-to-action:hover{
+    background-color: rgba(213, 175, 92, .1);
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .15);
+}
+
+/*DESTAQUE MENSAL*/
+.destaque-mensal {
+    margin-top: 60px;
+}
+.destaque-mensal .destaque-mensal-container h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.destaque-mensal .destaque-mensal-container ul .destaque-mensal-sobre {
+    background-color: #f9f9f9;
+    padding: 16px;
+}
+
+
+.destaque-mensal .destaque-mensal-container ul .destaque-mensal-sobre .call-to-action {
+    background-color: var(--principal);
+    color: var(--enfase);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s;
+    display: block;
+    text-align: center;
+}
+
+.destaque-mensal .destaque-mensal-container ul .destaque-mensal-sobre .call-to-action:hover {
+    background-color: rgba(213, 175, 92, .1);
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .15);
+}
+
+/*TRATAMENTOS*/
+.tratamentos{
+    margin-top: 120px;
+}
+.tratamentos div h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.tratamentos div ul .tratamento .tratamento-sobre {
+    background-color: #f9f9f9;
+    padding: 16px;
+} 
+
+.tratamentos div ul .tratamento .tratamento-sobre .call-to-action {
+    background-color: var(--principal);
+    color: var(--enfase);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s;
+    display: block;
+    text-align: center;
+}
+
+.tratamentos div ul .tratamento .tratamento-sobre .call-to-action:hover {
+    background-color: rgba(213, 175, 92, .1);
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .15);
+}
+
+.tratamentos .call-to-action-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tratamentos .tratamentos-container .call-to-action-container .call-to-action {
+    background-color: var(--principal);
+    color: var(--enfase);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s;
+    text-align: center;
+    display: flex;
+    gap: 8px;
+}
+
+.tratamentos .tratamentos-container .call-to-action-container .call-to-action:after {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../imgs/icones/seta_direita.svg');
+    align-self: center;
+}
+
+.tratamentos .tratamentos-container .call-to-action:hover {
+    background-color: rgba(213, 175, 92, .1);
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .15);
+    gap: 20px;
+}
+
+
+/*CONHEÇA O STUDIO*/
+.conheca-o-studio {
+    margin-top: 120px;
+}
+
+/*FEEDBACKS*/
+.feedbacks {
+    margin-top: 120px;
+}
+
+/*BIOGRAFIA*/
+.biografia {
+    margin-top: 120px;
+}
+
