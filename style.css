@@ -11,7 +11,6 @@ img{
 
 a{
     text-decoration: none;
-    display: flex;
     justify-self: center;
 }
 
@@ -521,19 +520,6 @@ header .redes-mobile, .paginas .call-to-action{
     display: flex;
     align-items: center;
     text-transform: uppercase;
-}
-
-#procedimentos .procedimento a::after{
-    content: '';
-    width: 14px;
-    height: 10px;
-    background-image: url('imgs/icones/seta_direita.svg');
-    margin-left: 10px;
-    transition: .3s;
-}
-
-#procedimentos .procedimento a:hover::after{
-    margin-left: 20px;
 }
 
 @media(max-width: 1400px){
