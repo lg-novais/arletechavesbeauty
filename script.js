@@ -36,3 +36,17 @@ const logo = document.querySelector('.logo img');
     } else{
         logo.setAttribute('src', 'imgs/logo/logo.png');
     }
+
+
+
+    const navItens = document.querySelectorAll('nav ul li a');
+    console.log(navItens)
+
+    function ativarNav(event) {
+        navItens.forEach((item) => {
+            item.classList.remove('ativo')
+        })
+        console.log(event.target.classList.add('ativo'));
+    }
+
+    addEventListener('click', ativarNav)

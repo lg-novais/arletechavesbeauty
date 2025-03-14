@@ -210,6 +210,10 @@ header nav .nav-links{
     align-items: center;
 }
 
+header nav .nav-links li a.ativo{
+    font-weight: bold;
+}
+
 header nav .nav-links li a{
     color: var(--cor-neutra);
     padding: 16px 10px;
