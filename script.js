@@ -37,16 +37,14 @@ const logo = document.querySelector('.logo img');
         logo.setAttribute('src', 'imgs/logo/logo.png');
     }
 
+/*Marcação de navegação por tab*/
+const navItens = document.querySelectorAll('nav ul li a');
 
+function ativarNav(event) {
+    navItens.forEach((item) => {
+        item.classList.remove('ativo')
+    })
+    event.target.classList.add('ativo');
+}
 
-    const navItens = document.querySelectorAll('nav ul li a');
-    console.log(navItens)
-
-    function ativarNav(event) {
-        navItens.forEach((item) => {
-            item.classList.remove('ativo')
-        })
-        console.log(event.target.classList.add('ativo'));
-    }
-
-    addEventListener('click', ativarNav)
+addEventListener('click', ativarNav)

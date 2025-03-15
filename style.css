@@ -227,7 +227,7 @@ header .redes-mobile, .paginas .call-to-action{
 #inicio .banner{
     padding-top: 92px;
     padding-bottom: calc(504px - 250px);
-    background: url('imgs/tratamentos-banner/spa.jpg') no-repeat;
+    /* background: url('imgs/antes-depois/henna.jpg') no-repeat; */
     background-position: center;
     
 }
@@ -650,6 +650,7 @@ header .redes-mobile, .paginas .call-to-action{
 
 #resultados .slider-resultados img{
     border-radius: 8px;
+    max-width: 500px;
 }
 
 #resultados .slick-prev{
