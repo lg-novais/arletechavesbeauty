@@ -66,13 +66,22 @@
         </header>
 
         <section id="inicio">
-            <div class="banner">
-                <img src="imgs/antes-depois/henna.jpg" alt="">
-                <div class="desc-banner">
-                    <span>Realce sua beleza</span>
-                    <h1>Spa Beauty</h1>
+            <div class="slick-banners">
+                <div class="banner">
+                    <img src="imgs/antes-depois/henna.jpg" alt="Henna">
                 </div>
-                <a class="call-to-action "href="">Agendar</a>
+    
+                <div class="banner">
+                    <img src="imgs/antes-depois/design-personalizado.jpg" alt="Design personalizado">
+                </div>
+    
+                <div class="banner">
+                    <img src="imgs/antes-depois/design-personalizado2.jpg" alt="Design personalizado">
+                </div>
+    
+                <div class="banner">
+                    <img src="imgs/antes-depois/shadow-brows.jpg" alt="Shadow brows">
+                </div>
             </div>
         </section>
 
@@ -344,23 +353,6 @@
             </div>
         </section>
 
-        <!- Antes e depois ->
-        <section id="resultados">
-            <div class="container">
-                <div>
-                    <h1>Resultados</h1>
-                </div>
-    
-                <ul class="resultados slider-resultados">
-                    <li><img src="imgs/antes-depois/resultado-1.jpg" alt=""></li>
-                    <li><img src="imgs/antes-depois/resultado-2.jpg" alt=""></li>
-                    <li><img src="imgs/antes-depois/resultado-3.jpg" alt=""></li>
-                    
-                </ul>
-    
-            </div>
-        </section>
-
         <section id="instagram">
             <div class="container">
                 <h2>Nos acompanhe no instagram</h2>
@@ -438,6 +430,15 @@
         <script src="script.js"></script>
         
         <script type="text/javascript">
+            $('.slick-banners').slick({
+                slidesToShow: 1,
+                centerMode: false,
+                infinite: true,
+                dots: false,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+
             $('.slider-procedimentos').slick({
             slidesToShow: 2,
             // centerMode: true,

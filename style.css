@@ -225,20 +225,24 @@ header .redes-mobile, .paginas .call-to-action{
 
 /*Início*/
 #inicio .banner{
-    padding-top: 92px;
-    padding-bottom: calc(504px - 250px);
-    /* background: url('imgs/antes-depois/henna.jpg') no-repeat; */
-    background-position: center;
-    
+   position: relative;
 }
 
-#inicio .banner .desc-banner{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#inicio .banner{
+    display: none;
 }
 
-#inicio .banner .desc-banner span{
+#inicio .banner.ativo{
+    display: block;
+}
+
+#inicio .call-to-action{
+    position: absolute;
+    bottom: 200px;
+    left: 700px;
+}
+
+#inicio .desc-banner span{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 32px;
@@ -247,63 +251,10 @@ header .redes-mobile, .paginas .call-to-action{
     color: #fff;
 }
 
-#inicio .banner .desc-banner h1{
+#inicio .desc-banner h1{
     font-size: 120px;
     margin-bottom: 120px;
     color: #fff;
-}
-
-@media(max-width: 768px){
-    #inicio .banner{
-        padding-bottom: 100px;
-    }
-    #inicio .banner .desc-banner span{
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
-    #inicio .banner .desc-banner h1{
-        font-size: 80px;
-        margin-bottom: 220px ;
-    }
-}
-@media(max-width: 395px){
-    #inicio .banner{
-        padding-bottom: 200px;
-    }
-    #inicio .banner .desc-banner span{
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-    #inicio .banner .desc-banner h1{
-        font-size: 60px;
-        margin-bottom: 120px ;
-    }
-}
-@media(max-width: 300px){
-    #inicio .banner{
-        padding-bottom: 200px;
-    }
-    #inicio .banner .desc-banner span{
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-    #inicio .banner .desc-banner h1{
-        font-size: 42px;
-        margin-bottom: 120px ;
-    }
-}
-@media(max-width: 200px){
-    #inicio .banner{
-        padding-bottom: 200px;
-    }
-    #inicio .banner .desc-banner span{
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-    #inicio .banner .desc-banner h1{
-        font-size: 32px;
-        margin-bottom: 120px ;
-    }
 }
 
 /*Sobre*/
@@ -632,100 +583,6 @@ header .redes-mobile, .paginas .call-to-action{
         padding: 4px 20px;
     }
 }
-
-/*Resultados*/
-#resultados{
-    background-color: var(--cor-neutra);
-    padding-bottom: 60px;
-    padding-top: 60px;
-}
-
-#resultados h1{
-    color: var(--cor-enfase);
-    font-family: "Baskverville", serif;
-    font-size: 62px;
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-#resultados .slider-resultados img{
-    border-radius: 8px;
-    max-width: 500px;
-}
-
-#resultados .slick-prev{
-    left: 5px;
-    z-index: 100;
-    top: 50%;
-    left: 0%;
-    width: 26px;
-    height: 82px;
-    background: url('imgs/icones/seta-left-slide.svg') no-repeat;
-}
-
-#resultados .slick-prev::before{
-    content: '';
-}
-
-#resultados .slick-next{
-    left: 5px;
-    z-index: 100;
-    top: 50%;
-    left: 102%;
-    width: 26px;
-    height: 82px;
-    background: url('imgs/icones/seta-right-slide.svg') no-repeat;
-}
-
-#resultados .slick-next::before{
-    content: '';
-    /* color: #000; */
-}
-
-#resultados .slick-dots li button:before{
-    color: var(--cor-enfase);
-    margin-top: 10px;
-}
-
-#resultados img{
-    height: 900px ;
-    
-}
-
-#resultados a{
-    margin-top: 120px;
-}
-
-@media(max-width: 1400px){
-    #resultados .slick-prev, #resultados .slick-next{
-        display: none !important;
-    }
-}
-
-@media(max-width: 1200px){
-    #resultados h1{
-        font-size: 48px;
-        padding-bottom: 30px;
-    }
-}
-
-@media(max-width: 576px){
-    #resultados .slick-dots li{
-        display: none;
-    }
-    #resultados .slick-next{
-        background: none;
-    }
-    #resultados .slick-prev{
-        background: none;
-    }
-}
-@media(max-width: 300px){
-    #resultados  h1{
-        font-size: 24px;
-    }
-}
-
 
 /*Instagram*/
 #instagram{
