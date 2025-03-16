@@ -230,7 +230,6 @@ header .redes-mobile, .paginas .call-to-action{
     background-position: center;
     padding-top: 90px;
     padding-bottom: 300px;
-    background-color: red;
 }
 
 #inicio .desc-banner{
@@ -430,7 +429,7 @@ header .redes-mobile, .paginas .call-to-action{
 
 #procedimentos .procedimento{
     background-color: #fff;
-    padding: 60px 0;
+    padding: 60px 20px;
     border-radius: 8px;
     justify-items: center;
     box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, .08);
@@ -442,6 +441,7 @@ header .redes-mobile, .paginas .call-to-action{
     padding-top: 30px;
     padding-bottom: 10px;
     font-family: "Baskervville", serif;
+    text-align: center;
 }
 
 #procedimentos .slick-prev{
@@ -480,7 +480,7 @@ header .redes-mobile, .paginas .call-to-action{
     font-weight: 300;
     /* padding-bottom: 40px; */
     position: relative;
-    max-width: 50ch;
+    /* max-width: 50ch; */
 }
 
 #procedimentos .procedimento p::after{
