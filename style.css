@@ -37,6 +37,7 @@ h1{
     font-size: 20px;
     display: block;
     transition: .5s;
+    cursor: pointer;
 }
 
 .call-to-action:hover{
@@ -224,22 +225,18 @@ header .redes-mobile, .paginas .call-to-action{
 }
 
 /*Início*/
-#inicio .banner{
-   position: relative;
+#inicio .inicio-banner{
+    background: url('imgs/banners/spa.jpg') no-repeat;
+    background-position: center;
+    padding-top: 90px;
+    padding-bottom: 300px;
+    background-color: red;
 }
 
-#inicio .banner{
-    display: none;
-}
+#inicio .desc-banner{
+    display: grid;
+    justify-items: center;
 
-#inicio .banner.ativo{
-    display: block;
-}
-
-#inicio .call-to-action{
-    position: absolute;
-    bottom: 200px;
-    left: 700px;
 }
 
 #inicio .desc-banner span{
@@ -247,14 +244,56 @@ header .redes-mobile, .paginas .call-to-action{
     font-weight: 300;
     font-size: 32px;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #fff;
 }
+
 
 #inicio .desc-banner h1{
     font-size: 120px;
     margin-bottom: 120px;
-    color: #fff;
+    color: var(--cor-enfase);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media(max-width: 1200px){
+    #inicio .desc-banner span{
+        font-size: 28px;
+    }
+
+    #inicio .desc-banner h1{
+        font-size: 80px;
+    }
+}
+@media(max-width: 768px){
+    #inicio .desc-banner span{
+        font-size: 24px;
+    }
+    #inicio .desc-banner h1{
+        font-size: 60px
+    }
+    #inicio .desc-banner .call-to-action{
+        padding: 10px 40px;
+    }
+}
+@media(max-width: 576px){
+    #inicio .desc-banner span{
+        font-size: 20px;
+    }
+    #inicio .desc-banner h1{
+        font-size: 40px
+    }
+}
+@media(max-width: 375px){
+    #inicio .desc-banner span{
+        font-size: 18px;
+    }
+    #inicio .desc-banner h1{
+        font-size: 32px
+    }
+    #inicio .desc-banner .call-to-action{
+        padding: 8px 20px;
+    }
 }
 
 /*Sobre*/
@@ -326,25 +365,11 @@ header .redes-mobile, .paginas .call-to-action{
         justify-items: center;
     }
 }
-@media(max-width: 768px){
-    #inicio .call-to-action{
-        margin-top: -100px;
-    }
-    #sobre {
-        padding-top: calc(60px + 30px);
-        padding-bottom: 120px;
-    } 
-}
 
 @media(max-width: 400px){
     #sobre{
         padding-top: 30px ;
         padding-bottom: 60px ;
-    }
-    #inicio .call-to-action{
-        margin-top: -70px;
-        font-size: 16px;
-        padding: 8px 20px;
     }
     #sobre {
         padding-top: calc(60px + 10px);
@@ -619,6 +644,7 @@ header .redes-mobile, .paginas .call-to-action{
         font-size: 14px;
     }
 }
+
 /*Localização*/
 
 
