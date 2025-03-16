@@ -612,7 +612,7 @@ header .redes-mobile, .paginas .call-to-action{
 /*Instagram*/
 #instagram{
     padding-top: 60px;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
 #instagram h2{
     padding-bottom: 20px;
@@ -646,7 +646,9 @@ header .redes-mobile, .paginas .call-to-action{
 }
 
 /*Localização*/
-
+#localizacao iframe{
+    width: 100%;
+}
 
 
 
