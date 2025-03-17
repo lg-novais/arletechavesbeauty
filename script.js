@@ -48,18 +48,3 @@ function ativarNav(event) {
 }
 
 addEventListener('click', ativarNav)
-
-/*Slide banner*/
-// function trocaBanner(){
-//     const banners = document.querySelectorAll('#inicio .banner');
-
-//     banners.forEach((item) => {
-//         if(item.classList.contains('ativo')){
-//             item.classList.remove('ativo');
-//         } else{
-//             item.classList.add('ativo')
-//             console.log(item)
-//         }
-//     })
-// }
-// setInterval(trocaBanner, 2000);
