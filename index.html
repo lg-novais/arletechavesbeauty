@@ -453,6 +453,7 @@
                 dots: false,
                 autoplay: true,
                 autoplaySpeed: 2000,
+                arrows: false,
             });
 
             $('.slider-procedimentos').slick({
@@ -479,30 +480,6 @@
                 }
                 },
                 
-            ]
-          });
-
-          $('.slider-resultados').slick({
-            slidesToShow: 2,
-            centerMode: true,
-            infinite: true,
-            dots: true,
-            responsive:[
-                {
-                breakpoint: 1100,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-                },
-                {
-                breakpoint: 400,
-                settings: {
-                    centerMode: false,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-                },
             ]
           });
         </script>

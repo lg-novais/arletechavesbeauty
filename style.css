@@ -444,6 +444,10 @@ header .redes-mobile, .paginas .call-to-action{
     text-align: center;
 }
 
+/* *{
+    border: 2px solid red;
+} */
+
 #procedimentos .slick-prev{
     left: 5px;
     z-index: 100;
@@ -512,9 +516,6 @@ header .redes-mobile, .paginas .call-to-action{
     #procedimentos .procedimento{
         min-height: 650px;
         max-width: 90%;
-    }
-    #procedimentos .procedimento p{
-        max-width: 80%;
     }
 }
 
