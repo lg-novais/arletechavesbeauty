@@ -172,7 +172,7 @@ h1{
 
 /*Topo*/
 .topo{
-    background: #F9F7F1;
+    background: var(--cor-neutra);
 }
 
 .topo .call-to-action{
@@ -186,7 +186,7 @@ h1{
 }
 
 .redes-contato .wpp a {
-    color: var(--cor-neutra);
+    color: #fff;
 }
 
 .redes-contato .wpp a img {
@@ -201,6 +201,9 @@ h1{
 }
 
 /*Header*/
+header{
+    background-color: var(--cor-neutra);
+}
 header nav{
     justify-content: space-between;
     padding: 20px 0;
@@ -216,7 +219,7 @@ header nav .nav-links li a.ativo{
 }
 
 header nav .nav-links li a{
-    color: var(--cor-neutra);
+    color: #fff;
     padding: 16px 10px;
     border: 1px solid transparent;
 }
@@ -225,7 +228,7 @@ header nav .nav-links li a::after{
     content: '';
     width: 0px;
     display: flex;
-    background-color: #000;
+    background-color: #fff;
     /* justify-self: center; */
     transition: .3s;
 }

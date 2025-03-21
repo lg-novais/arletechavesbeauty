@@ -29,13 +29,13 @@ overlay.addEventListener('click', () => {
 });
 
 /*Trocar a cor do logo */
-let mediaQuery = window.matchMedia("(max-width: 576px)").matches;
-const logo = document.querySelector('.logo img');
-    if(mediaQuery){
-        logo.setAttribute('src', 'imgs/logo/logo-branco.png'); 
-    } else{
-        logo.setAttribute('src', 'imgs/logo/logo.png');
-    }
+// let mediaQuery = window.matchMedia("(max-width: 576px)").matches;
+// const logo = document.querySelector('.logo img');
+//     if(mediaQuery){
+//         logo.setAttribute('src', 'imgs/logo/logo-branco.png'); 
+//     } else{
+//         logo.setAttribute('src', 'imgs/logo/logo.png');
+//     }
 
 /*Marcação de navegação por tab*/
 const navItens = document.querySelectorAll('nav ul li a');
