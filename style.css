@@ -35,7 +35,7 @@ h1{
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-size: 20px;
-    display: block;
+    display: flex;
     transition: .5s;
     cursor: pointer;
 }
@@ -263,9 +263,6 @@ header .call-to-action{
     #inicio .desc-banner h1{
         font-size: 60px
     }
-    #inicio .desc-banner .call-to-action{
-        padding: 10px 40px;
-    }
 }
 @media(max-width: 576px){
     #inicio .desc-banner span{
@@ -333,7 +330,7 @@ header .call-to-action{
 @media(max-width: 1000px){
     #sobre {
         padding-top: 60px;
-        padding-bottom: 120px;
+        padding-bottom: 60px;
     }
 }
 @media(max-width: 992px){
@@ -349,7 +346,7 @@ header .call-to-action{
         justify-content: center;
     }
     #sobre img{
-        max-width: 70%;
+        height: 500px;
         margin-bottom: 30px;
     }
     #sobre .texto-sobre{
@@ -508,7 +505,6 @@ header .call-to-action{
 
 @media(max-width: 1300px){
     #procedimentos .procedimento{
-        min-height: 650px;
         max-width: 90%;
     }
 }
@@ -524,6 +520,9 @@ header .call-to-action{
 }
 
 @media(max-width: 576px){
+    #procedimentos{
+        padding-bottom: 0;
+    }
     #procedimentos .titulo-procedimentos h1{
         font-size: 38px;
         padding-bottom: 40px;
@@ -574,7 +573,6 @@ header .call-to-action{
     #procedimentos .procedimento{
         padding-left: 10px;
         padding-right: 10px;
-        min-width: 100%;
     }
     #procedimentos  h3{
         font-size: 20px;
@@ -596,7 +594,7 @@ header .call-to-action{
         font-size: 18px;
         padding-bottom: 10px;
     } 
-    #procedimentos .procedimento  img{
+    #procedimentos .procedimento img{
         max-width: 100%;
     }
     #procedimentos .procedimento  .call-to-action{
