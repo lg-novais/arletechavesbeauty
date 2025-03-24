@@ -68,11 +68,6 @@ h1{
        display: flex;
     color: var(--cor-neutra) !important;
     }
-    .topo{
-        max-width: 100%;
-        height: 70px;
-        background-color: var(--cor-neutra);
-    }
     .menu-toggle {
         position: fixed;
         top: 10px;
@@ -170,48 +165,22 @@ h1{
     display: none;
 }
 
-/*Topo*/
-.topo{
-    background: var(--cor-neutra);
-}
-
-.topo .call-to-action{
-    border-radius: 0;
-}
-
-.redes-contato{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.redes-contato .wpp a {
-    color: #fff;
-}
-
-.redes-contato .wpp a img {
-    margin-right: 10px;
-}
-
-.redes-sociais ul{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-right: 40px;
-}
-
 /*Header*/
 header{
     background-color: var(--cor-neutra);
+    padding: 10px 5px ;
 }
-header nav{
+header .sidebar{
+    display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    align-items: center;
 }
 
-header nav .nav-links{
+header .nav-links{
+    margin-bottom: 0;
+    padding-bottom: 0 ;
+    display: flex;
     gap: 10px;
-    align-items: center;
 }
 
 header nav .nav-links li a.ativo{
@@ -220,7 +189,7 @@ header nav .nav-links li a.ativo{
 
 header nav .nav-links li a{
     color: #fff;
-    padding: 16px 10px;
+    padding: 10px 16px;
     border: 1px solid transparent;
 }
 
@@ -239,16 +208,20 @@ header nav .nav-links li a:hover::after{
     height: 1px;
 }
 
-header .redes-mobile, .paginas .call-to-action{
-    display: none;
+header .call-to-action{
+    margin-left: 40px;
 }
+
+/* header .redes-mobile, .paginas .call-to-action{
+    display: none;
+} */
 
 /*Início*/
 #inicio .inicio-banner{
     background: url('imgs/banners/spa.jpg') no-repeat;
     background-position: center;
     padding-top: 90px;
-    padding-bottom: 300px;
+    padding-bottom: 182px;
 }
 
 #inicio .desc-banner{
@@ -333,7 +306,7 @@ header .redes-mobile, .paginas .call-to-action{
 }
 
 #sobre img {
-    max-width: 550px;
+    height: 650px;
 }
 
 #sobre p {
@@ -452,8 +425,12 @@ header .redes-mobile, .paginas .call-to-action{
     border-radius: 8px;
     justify-items: center;
     box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, .08);
-    min-height: 650px;
+    /* min-height: 650px; */
     max-width: 600px;
+}
+
+#procedimentos .procedimento img{
+   max-width: 200px; 
 }
 
 #procedimentos .procedimento h3{
@@ -463,9 +440,7 @@ header .redes-mobile, .paginas .call-to-action{
     text-align: center;
 }
 
-/* *{
-    border: 2px solid red;
-} */
+
 
 #procedimentos .slick-prev{
     left: 5px;
