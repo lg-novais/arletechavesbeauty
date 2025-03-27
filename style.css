@@ -168,7 +168,8 @@ h1{
 /*Header*/
 header{
     background-color: var(--cor-neutra);
-    padding: 10px 5px ;
+    padding: 10px 10px ;
+    min-height: 80px;
 }
 header .sidebar{
     display: flex;
